@@ -10,17 +10,11 @@ feature_row:
   alt: "placeholder image 1"
   title: "Placeholder 1"
   excerpt: "Sample blurb of research1."
-  - image_path: test_gallery_pic2.jpg
-  alt: "placeholder image 2"
-  title: "Placeholder 2"
-  excerpt: "Sample blurb of research2."
-  - image_path: test_gallery_pic3.jpg
-  alt: "placeholder image 3"
-  title: "Placeholder 3"
-  excerpt: "Sample blurb of research3."
 ---
 {% include feature_row id="intro" type="center" %}
-{% include feature_row %}
+
+{% include feature_row id="feature_row" type="left" %}
+
 {% include base_path %}
 
 <!--<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>-->

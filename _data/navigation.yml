@@ -2,6 +2,9 @@
 main:
   - title: "About Me"
     url: https://chris-owen.github.io/_pages/About_Me.md/
-
+  - title: "CV"
+    url: https://chris-owen.github.io/_pages/CV.md/
+  - title: "Tutorials"
+    url: https://chris-owen.github.io/_pages/Tutorials.md/
  # - title: "Sample Navigation Link 2"
  #   url: /

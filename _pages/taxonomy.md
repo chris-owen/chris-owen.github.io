@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /taxonomy/
 author_profile: true
 type: pages
 ---

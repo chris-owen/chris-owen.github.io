@@ -77,7 +77,10 @@ Loops through the current directory files with file_ending, changes string_to_re
 `cat list_of_commands.txt | xargs -I cmd --max-procs=2 bash -c cmd &`  
 This one-liner runs a list of commands in parallel.  The list of commands can be generated using the for loop above and writing them to a file, one per line. Also note that you can use <a href="http://www.gnu.org/software/parallel/">GNU Parallel</a>  
 
-`ls *.fa | xargs -I file -n 1 -P 2 /Applications/muscle3.8.31_i86darwin64 -in file -out file.aln`  
+```
+ls *.fa | xargs -I file -n 1 -P 2 /Applications/muscle3.8.31_i86darwin64 -in file -out file.aln`  
+```
+
 Similar to the one-liner above, this one takes all of the fasta files in a directory and estimates an alignment for two at a time (i.e., '-P 2').  Note you don't have to add '$' to the variable 'file' coming through the pipe.  In addition, xargs can handle adding strings with no additional command (e.g., '-out file.aln' just adds '.aln' to the end of the file name)
 
 ### Download .sra file from <a href="http://www.ncbi.nlm.nih.gov/sra">NCBI SRA database</a> using the bash and extract the .fastq files from it using <a href="https://github.com/ncbi/sra-tools">SRA-tools</a>  
@@ -107,9 +110,11 @@ The text below is saved in a text file ending in .sh (i.e., a shell script).  Th
 module load module_name
 module load module_name
 
-commands to perform on the cluster
+commands to perform on the cluster  
 ```
-#### Explanation of the Slurm shell commands above:
+
+#### Explanation of the Slurm shell commands above:  
+
 1. `-J` is the name of the Slurm job.  You can call it anything you want.
 2. `-o` is the name of the std output file.
 3. `-e` is the name of the std error file.
@@ -120,7 +125,8 @@ commands to perform on the cluster
 8. `--mail-user` is the email address where job notifications are sent.
 9. `module load` loads any modules you need to perform tasks on the cluster.  In order to see what modules are on the cluster, you can log into the cluster and execute `module avail` in the terminal.  A list will appear and just copy and past the name of the module after `module load`.  You can load as many modules as needed.
 
-### Slurm commands when logged in on the cluster
+### Slurm commands when logged in on the cluster  
+
 `sbatch shell_file`  
 When executed in your home directory, this submits a job to the cluster.  
 `squeue`  

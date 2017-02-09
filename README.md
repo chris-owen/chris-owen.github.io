@@ -4,10 +4,10 @@ This is my first attempt at making a github pages website. I think I have
 wrapped my head around it. Until I add a bit more content, I am going to use the
 README.md doc as a to-do list until I get things to where I want them.
 
-1. Add informative figures to the front page regarding research topics.
-2. Add a blurb to the *About me*
-3. Add current CV
-4. Add content to each of the highlighted research topics. This includes converting figures (graphs and phylogenies) to javascript using [Bokeh](http://bokeh.pydata.org) to insert in the appropriate pages.
+- [x] Add informative figures to the front page regarding research topics.
+- [ ] Add a blurb to the *About me*
+- [ ] Add current CV
+- [ ] Add content to each of the highlighted research topics. This includes converting figures (graphs and phylogenies) to javascript using [Bokeh](http://bokeh.pydata.org) to insert in the appropriate pages.
 
 ## License
 

@@ -9,6 +9,6 @@ main:
   - title: "Tutorials"
     url: https://chris-owen.github.io/_pages/Tutorials.md/
   - title: "Code Examples"
-    url: https://chris-owen.github.io/_pages/code-examples/
+    url: /code-examples/
  # - title: "Sample Navigation Link 2"
  #   url: /

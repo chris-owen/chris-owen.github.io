@@ -12,71 +12,72 @@ The following are bits of code that primarily serve as teaching tools and remind
 `man bash_command`  
 Although I give examples of commands below with a short description, this only scratches the surface of what they can do.  If you have questions regarding a command, you should always check the man pages about the command.  These pages provide the full documentation for all bash commands.  If there are still questions after viewing the man pages, there is always <a href="http://www.google.com">Google</a> and <a href="http://stackoverflow.com/">stackoverflow</a>.  
 
-    cd
+`cd`  
 Executed by itself will bring you to your home directory, while adding a path after cd will bring you to that directory.  
 
-    cd ..
+`cd ..`  
 Changes directory to one-up the directory hierarchy  
 
-    cp file_name path_to_new_directory
+`cp file_name path_to_new_directory`  
 Copies a file from you current directory and places in a different directory.  
 
-    mv file_name path_to_new_directory
+`mv file_name path_to_new_directory`  
 Does the same thing as cp, but does not make a copy and just moves the file.  
 
-    head file_name
+`head file_name`  
 Prints the first few lines of a file. Add -n # after the file name and it will return the specified number of lines starting from the top of the file.  
 
-    tail file_name
+`tail file_name`  
 Same as head command, but prints the last few lines of the file. You can also include the -n # to specify the number of lines to return.  
 
-    pwd  
+`pwd`  
 Returns the path to the current directory.  
 
-    cat file_name | grep -c "string"
+`cat file_name | grep -c "string"`  
 Opens a file and then searches to file to count the occurrences of a string.  
 
-    cat file_name | grep 'string'
+`cat file_name | grep 'string'`  
 Instead of counting, this searches a file for a particular string.  
 
-    ls
+`ls`  
 Lists the files and directories in the current directory.  
 
-    ls -s
+`ls -s`  
 Adding `-s` lists the files and directories, but also includes sizes.  
 
-    ls -d */  
+`ls -d */`  
 Lists only the directories in the current directory.  
 
-    ls | grep -c 'string'
+`ls | grep -c 'string'`  
 Lists all files in a directory and then returns only those with a particular string.  
 
-    ls *string | sort
+`ls *string | sort`
 Lists all the files in a directory containing the specified string and then sorts them alphabetically.  I typically use this to generate slurm array file lists to process fastqs (need to add `> file_name` to save the list to a file.  I also use the command with `| cat *string > file_name` to concatenate fastq files for genome/transcriptome assemblies.  
 
-    history
+`history`  
 Returns the last hundred or so commands issued.  
 
-    history | grep 'string'
+`history | grep 'string'`  
 I usually combine history with grep to look for specific commands that I previously executed.  
 
-    rm file_name
+`rm file_name`  
 Delete a file  
 
-    cat file_name | grep -Anumber 'string'
+`cat file_name | grep -Anumber 'string'`  
 Searches a file for a string and returns the line with the string AND number lines after the string.  
 
+```
     for FILE in *file_ending; do
         mv -v "$FILE"  
         "${FILE//string_to_replace/new_string}";
     done
-
+```
 Loops through the current directory files with file_ending, changes string_to_replace to new_string.  
 
-    cat list_of_commands.txt | xargs -I cmd --max-procs=2 bash -c cmd &
+`cat list_of_commands.txt | xargs -I cmd --max-procs=2 bash -c cmd &`  
 This one-liner runs a list of commands in parallel.  The list of commands can be generated using the for loop above and writing them to a file, one per line. Also note that you can use <a href="http://www.gnu.org/software/parallel/">GNU Parallel</a>  
 
-    ls *.fa | xargs -I file -n 1 -P 2 /Applications/muscle3.8.31_i86darwin64 -in file -out file.aln
+`ls *.fa | xargs -I file -n 1 -P 2 /Applications/muscle3.8.31_i86darwin64 -in file -out file.aln`  
 Similar to the one-liner above, this one takes all of the fasta files in a directory and estimates an alignment for two at a time (i.e., '-P 2').  Note you don't have to add '$' to the variable 'file' coming through the pipe.  In addition, xargs can handle adding strings with no additional command (e.g., '-out file.aln' just adds '.aln' to the end of the file name)
 
 ### Download .sra file from <a href="http://www.ncbi.nlm.nih.gov/sra">NCBI SRA database</a> using the bash and extract the .fastq files from it using <a href="https://github.com/ncbi/sra-tools">SRA-tools</a>  

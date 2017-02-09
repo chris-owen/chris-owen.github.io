@@ -201,21 +201,27 @@ These command assume you have created a git repo on <a href="https://bitbucket.o
 3. Next, you need to commit the file by executing `git commit -m "info_about_the_commit"` The information should convey the status of the committed script.  
 4. Lastly, the file should be pushed to the remote repo on Bitbucket by executing `git push`.
 
-## Helpful python snippets
+## Helpful python snippets  
+
 Read file by line  
+
 ```
 with open('file_name.txt') as f:
-	for line in f:
-		do something with line  
+    for line in f:
+        do something with line  
 ```
+
 Read file by line and look for lines that start with '>'  
+
 ```
 with open('file_name.txt') as f:
     for line in f:
         if line.startswith('>'):
             do something with line
 ```
+
 Read tab-delimited file by line; split each line by tabs; add column 2 element to a list  
+
 ```
 column2_list = []#empty list to store column 2 elements
 with open('file_name.txt') as f:
@@ -224,7 +230,9 @@ with open('file_name.txt') as f:
         wanted_element = elements[1]#python uses zero-based counting so element 2 is actually 1
         column2_list.append(wanted_element)
 ```
+
 Loop through fasta files in a directory with a file ending of ".fa"  
+
 ```
 import glob  
 for fasta_file in glob.glob("*.fa"):
@@ -311,4 +319,5 @@ for line in lines:
 bacteria_taxonomy.close()
 print 'It took', time.time()-start, 'seconds'
 ```
+
 For an introduction to string slicing and lists go <a href="https://docs.python.org/2/tutorial/introduction.html">here</a>

@@ -3,6 +3,7 @@ layout: single
 author_profile: true
 type: pages
 ---
+
 The following are bits of code that primarily serve as teaching tools and reminders.
 
 ## Helpful bash commands  

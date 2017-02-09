@@ -1,6 +1,5 @@
 ---
 layout: single
-permalink: /code/
 author_profile: true
 type: pages
 ---

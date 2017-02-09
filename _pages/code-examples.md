@@ -51,7 +51,7 @@ Lists only the directories in the current directory.
 `ls | grep -c 'string'`  
 Lists all files in a directory and then returns only those with a particular string.  
 
-`ls *string | sort`
+`ls *string | sort`  
 Lists all the files in a directory containing the specified string and then sorts them alphabetically.  I typically use this to generate slurm array file lists to process fastqs (need to add `> file_name` to save the list to a file.  I also use the command with `| cat *string > file_name` to concatenate fastq files for genome/transcriptome assemblies.  
 
 `history`  
@@ -78,7 +78,7 @@ Loops through the current directory files with file_ending, changes string_to_re
 This one-liner runs a list of commands in parallel.  The list of commands can be generated using the for loop above and writing them to a file, one per line. Also note that you can use <a href="http://www.gnu.org/software/parallel/">GNU Parallel</a>  
 
 ```
-ls *.fa | xargs -I file -n 1 -P 2 /Applications/muscle3.8.31_i86darwin64 -in file -out file.aln`  
+ls *.fa | xargs -I file -n 1 -P 2 /Applications/muscle3.8.31_i86darwin64 -in file -out file.aln  
 ```
 
 Similar to the one-liner above, this one takes all of the fasta files in a directory and estimates an alignment for two at a time (i.e., '-P 2').  Note you don't have to add '$' to the variable 'file' coming through the pipe.  In addition, xargs can handle adding strings with no additional command (e.g., '-out file.aln' just adds '.aln' to the end of the file name)
@@ -86,8 +86,8 @@ Similar to the one-liner above, this one takes all of the fasta files in a direc
 ### Download .sra file from <a href="http://www.ncbi.nlm.nih.gov/sra">NCBI SRA database</a> using the bash and extract the .fastq files from it using <a href="https://github.com/ncbi/sra-tools">SRA-tools</a>  
 
 1) Get the web address to the .sra file  
-2) Download the file to a local directory on your personal computer or HPC:
-curl /web/address/to/sra/file/name_of_sra_file --output /path/where/you/want/.sra/file/to/live/name_of_sra_file  
+2) Download the file to a local directory on your personal computer or HPC:  
+`curl /web/address/to/sra/file/name_of_sra_file --output /path/where/you/want/.sra/file/to/live/name_of_sra_file`  
 3) Extract .fastq files from .sra file:  
 `/path/to/binary/fastq-dump.2.3.3-3 --split-files name_of_sra_file`
 

@@ -1,6 +1,6 @@
 ---
-layout: single
 permalink: /code-examples/
+layout: single
 author_profile: true
 type: pages
 ---

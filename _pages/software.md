@@ -1,3 +1,10 @@
+---
+permalink: /software/
+layout: single
+author_profile: true
+type: pages
+---
+
 ## Sequence Manipulation and Viewing  
 [Mesquite (GUI)](https://github.com/MesquiteProject/MesquiteCore)  
 [Aliview (GUI)](http://www.ormbunkar.se/aliview/)  

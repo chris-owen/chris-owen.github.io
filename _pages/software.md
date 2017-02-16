@@ -59,7 +59,7 @@ type: pages
 ## NGS Error Correction  
 [BLESS](https://sourceforge.net/p/bless-ec/wiki/Home/)  
 [Rcorrector](https://github.com/mourisl/Rcorrector)  
-[https://github.com/emarinier/pollux](https://github.com/emarinier/pollux)  
+[Pollux](https://github.com/emarinier/pollux)  
 
 ## NGS Short-Read Aligners  
 [Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)  

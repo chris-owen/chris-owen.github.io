@@ -195,6 +195,16 @@ OUTFILE=${INFILE/.xml/.result}
 beast $INFILE > $OUTFILE
 ```
 
+## Download large files from a server 
+Sometimes I have to download large HiSeq runs (GBs to TBs) from a remote server. Below are the commands I give via the terminal using [GNU Screen](https://www.gnu.org/software/screen/) and [Linux scp](https://linux.die.net/man/1/scp). In the past I have also used [Globus](https://www.globus.org). Globus is a pay service that has a GUI interface (and command line) and many universities pay to have access.  
+1. SSH into your remote server  
+2. Begin a screen session by typing `screen -S <session name>`  
+3. Execute scp command `scp -P<port#> <wanted_file> <usr_name>@<local_ip_address>:/local/directory/path`  
+4. Once the file(s) starts downloading, detach the screen by pressing `Ctrl` + `a` then `d`  
+5. Log off of the SSH session  
+
+To re-attach the screen, log back into the server (step 1) and type `screen -r <session name>`  
+
 ## Git commands
 These command assume you have created a git repo on <a href="https://bitbucket.org/">Bitbucket</a> and initiated it locally on your personal computer (`git init`).  
 1. The first thing I do when I begin working on a repo at the start of the day, I pull the most recent version and sync it with my current version by executing `git pull` from the local repo directory.  You can also see if you local repo is up-to-date by executing `git status`.  

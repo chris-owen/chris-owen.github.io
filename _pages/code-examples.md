@@ -205,6 +205,11 @@ Sometimes I have to download large HiSeq runs (GBs to TBs) from a remote server.
 
 To re-attach the screen, log back into the server (step 1) and type `screen -r <session name>`  
 
+## Delete large (GBs to TBs) directories fast  
+Occasionally I need to delete VERY large direcoties in my file system (local or HPC). I usually use `rm` to remove files (e.g., `rm <file_name>`) and directories (e.g., `rm -rf <directory>`), but it is exceptionally slow for large directories. I recently found a workaround on [Stack Exchange](http://unix.stackexchange.com/questions/37329/efficiently-delete-large-directory-containing-thousands-of-files) that significantly speeds up the process.  
+1. Make an empty directory in the terminal `mkdir <directory_name>`  
+2. rsync -a --delete <empty_directory> <directory_to_delete>  
+
 ## Git commands
 These command assume you have created a git repo on <a href="https://bitbucket.org/">Bitbucket</a> and initiated it locally on your personal computer (`git init`).  
 1. The first thing I do when I begin working on a repo at the start of the day, I pull the most recent version and sync it with my current version by executing `git pull` from the local repo directory.  You can also see if you local repo is up-to-date by executing `git status`.  

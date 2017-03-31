@@ -195,6 +195,11 @@ OUTFILE=${INFILE/.xml/.result}
 beast $INFILE > $OUTFILE
 ```
 
+## Make a REVEAL.js presentation from a jupyter notebook  
+I am starting to get in the habit of using jupyter notebooks to work on code, but also to render html presentations. Doing it this way saves a TON of time and limits having to use PowerPoint (ugh!). Also, if you keep your presentations in a git repo, they are always available. The main driver behind this is [Reveal.js](http://lab.hakim.se/reveal-js/#/), which is the open source software behind rendering html presentations. I only know little bits of html, but jupyter notebooks have a function to convert the notebook to a html reveal presentation. Here are the main steps:  
+1. Make sure each slide is marked in the notebook. Start by clicking to View->Cell Toolbar->Slideshow. This will show a *Slide Type* dropdown menu in every cell. If the cell contains a slide you want in the presentation, click *Slide* from the dropdown menu.  
+2. To conver your presentation to html execute the following line in the terminal: `jupyter-nbconvert --to slides <jupyter_notebook_name> --reveal-prefix=<path/to/reveal.js/dir>`
+
 ## Download large files from a server 
 Sometimes I have to download large HiSeq runs (GBs to TBs) from a remote server. Below are the commands I give via the terminal using [GNU Screen](https://www.gnu.org/software/screen/) and [Linux scp](https://linux.die.net/man/1/scp). In the past I have also used [Globus](https://www.globus.org). Globus is a pay service that has a GUI interface (and command line) and many universities pay to have access.  
 1. SSH into your remote server  

@@ -35,6 +35,7 @@ type: pages
 ## Estimate phylogenies  
 [Garli](https://code.google.com/p/garli/)  
 [RAxML](https://github.com/stamatak/standard-RAxML)  
+[RAxML-ng](https://github.com/amkozlov/raxml-ng)  
 [MrBayes](http://mrbayes.sourceforge.net/)  
 [ExaML](https://github.com/stamatak/ExaML)  
 [ExaBayes](https://www.assembla.com/spaces/exa-bayes/git/source)  

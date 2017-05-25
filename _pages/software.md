@@ -49,6 +49,11 @@ type: pages
 [Seaborn](http://seaborn.pydata.org)  
 [Bokeh](http://bokeh.pydata.org/en/latest/)  
 [ggplot (for Python)](http://yhat.github.io/ggpy/)  
+[plotnine](https://plotnine.readthedocs.io/en/stable/)  
+
+## Sequence Simulation  
+[INDELible](http://abacus.gene.ucl.ac.uk/software/indelible/)  
+[SimPhy](https://github.com/adamallo/SimPhy)  
 
 ## NGS Read Visualization and Quality Control  
 [FASTX-Toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)  

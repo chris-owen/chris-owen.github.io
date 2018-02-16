@@ -97,3 +97,7 @@ type: pages
 
 ## Python IDE  
 [RODEO](https://www.yhat.com/products/rodeo)
+
+## Sanger primers and hybrid capture probes
+[Primer3.py](https://libnano.github.io/primer3-py/index.html#)
+[BaitFisher](https://github.com/cmayer/BaitFisher-package)

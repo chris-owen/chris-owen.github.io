@@ -70,6 +70,9 @@ type: pages
 ## NGS Short-Read Aligners  
 [Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)  
 [BWA](http://bio-bwa.sourceforge.net)  
+[MaxSSmap](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-969)  
+[Stampy](http://www.well.ox.ac.uk/project-stampy)  
+- see [this](https://www.biostars.org/p/75489/) post for an old but good discussion on read mapping to generate a consensus  
 
 ## NGS Read Alignment Manipulation  
 [SAMtools](http://samtools.sourceforge.net)  

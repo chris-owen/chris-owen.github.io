@@ -94,6 +94,10 @@ type: pages
 [DISCOVAR de novo](https://software.broadinstitute.org/software/discovar/blog/?page_id=98)  
 [SPAdes](http://bioinf.spbau.ru/spades)  
 
+## Genome Annotation  
+[BRAKER2](http://bioinf.uni-greifswald.de/bioinf/braker/)  
+[MAKER2](http://www.yandell-lab.org/software/maker.html)  
+
 ## Geo Mapping  
 [Basemap Maplotlib Toolkit](http://matplotlib.org/basemap/)  
 [Bokeh](http://bokeh.pydata.org/en/latest/)  

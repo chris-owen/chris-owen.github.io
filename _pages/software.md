@@ -24,6 +24,7 @@ type: pages
 [Muscle](http://www.drive5.com/muscle/)  
 [hmmer](http://hmmer.janelia.org/)  
 [Macse](http://bioweb.supagro.inra.fr/macse/)  
+[Diamond](https://github.com/bbuchfink/diamond)  
 [Blast+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)  
 [LASTZ](http://www.bx.psu.edu/miller_lab/dist/README.lastz-1.02.00/README.lastz-1.02.00a.html#intro)  
 [BLAT](https://genome.ucsc.edu/FAQ/FAQblat.html)  

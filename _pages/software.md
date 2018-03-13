@@ -74,7 +74,7 @@ type: pages
 [BWA](http://bio-bwa.sourceforge.net)  
 [MaxSSmap](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-969)  
 [Stampy](http://www.well.ox.ac.uk/project-stampy)  
-- see [this](https://www.biostars.org/p/75489/) post for an old but good discussion on read mapping to generate a consensus  
+- see [this post](https://www.biostars.org/p/75489/) for an old but good discussion on read mapping to generate a consensus  
 
 ## NGS Read Alignment Manipulation  
 [SAMtools](http://samtools.sourceforge.net)  
@@ -98,6 +98,15 @@ type: pages
 ## Genome Annotation  
 [BRAKER2](http://bioinf.uni-greifswald.de/bioinf/braker/)  
 [MAKER2](http://www.yandell-lab.org/software/maker.html)  
+
+## Orthology inference (de novo and non-de novo)  
+[Yang and Smith 2014](https://bitbucket.org/yangya/phylogenomic_dataset_construction)  
+[Orthograph](https://github.com/mptrsen/Orthograph/)  
+[OMA](https://omabrowser.org/oma/home/)  
+[OrthoSelect](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-219)  
+[HaMStR](https://github.com/ebersber/HaMStR)  
+[OrthoMCL](http://orthomcl.org/orthomcl/)  
+[Agalma](https://bitbucket.org/caseywdunn/agalma)  
 
 ## Geo Mapping  
 [Basemap Maplotlib Toolkit](http://matplotlib.org/basemap/)  

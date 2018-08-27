@@ -47,12 +47,14 @@ type: pages
 ## Phylogeny and Statistical Visualization (Python modules & R libraries)  
 [ETE Toolkit](http://etetoolkit.org)  
 [iTOL](http://itol.embl.de/)  
-[ggtree](http://etetoolkit.org)  
+[ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html)  
 [Matplotlib](http://matplotlib.org)  
 [Seaborn](http://seaborn.pydata.org)  
 [Bokeh](http://bokeh.pydata.org/en/latest/)  
 [ggplot (for Python)](http://yhat.github.io/ggpy/)  
+[pygg](https://github.com/sirrice/pygg)  
 [plotnine](https://plotnine.readthedocs.io/en/stable/)  
+[ipyvega](https://github.com/vega/ipyvega)  
 
 ## Sequence Simulation  
 [INDELible](http://abacus.gene.ucl.ac.uk/software/indelible/)  

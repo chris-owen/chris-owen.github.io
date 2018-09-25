@@ -45,8 +45,10 @@ type: pages
 [IQ-TREE](http://www.iqtree.org/#download)  
 
 ## Phylogeny and Statistical Visualization (Python modules & R libraries)  
+[Toytree](https://toytree.readthedocs.io/en/latest/)  
 [ETE Toolkit](http://etetoolkit.org)  
 [iTOL](http://itol.embl.de/)  
+[Toyplot](https://toyplot.readthedocs.io/en/stable/)  
 [ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html)  
 [Matplotlib](http://matplotlib.org)  
 [Seaborn](http://seaborn.pydata.org)  
@@ -101,7 +103,7 @@ type: pages
 [BRAKER2](http://bioinf.uni-greifswald.de/bioinf/braker/)  
 [MAKER2](http://www.yandell-lab.org/software/maker.html)  
 
-## Orthology inference (de novo and non-de novo)  
+## Orthology inference (tree-based and sequence similarity-based)  
 [Yang and Smith 2014](https://bitbucket.org/yangya/phylogenomic_dataset_construction)  
 [Orthograph](https://github.com/mptrsen/Orthograph/)  
 [OMA](https://omabrowser.org/oma/home/)  

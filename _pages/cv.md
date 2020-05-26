@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: single
 permalink: /cv/
 author_profile: false
 type: pages

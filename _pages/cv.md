@@ -1,6 +1,6 @@
 ---
-layout: single
 permalink: /cv/
+layout: single
 author_profile: false
 type: pages
 ---

@@ -1,10 +1,8 @@
 ---
 permalink: /cv/
-layout: single
+layout: cv
 author_profile: false
-type: pages
 ---
-
 # Christopher L. Owen
 Entomologist, United States Department of Agriculture
 

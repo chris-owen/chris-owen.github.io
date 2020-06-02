@@ -1,5 +1,6 @@
 ---
 layout: splash
+permalink: /publications/
 header:
   image: header_image2.jpg
   caption: "Photo credit: Dave Marshall & Kathy Hill"

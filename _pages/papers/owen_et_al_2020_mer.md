@@ -4,8 +4,8 @@ layout: single
 author_profile: False
 ---
 
-# ->*Hemiptera phylogenomic resources: tree-based orthology prediction and conserved exon identification*<-  
-## ->CL Owen, DB Stern, SK Hilton, KA Crandall<-  
+# -> *Hemiptera phylogenomic resources: tree-based orthology prediction and conserved exon identification* <-  
+## -> CL Owen, DB Stern, SK Hilton, KA Crandall <-  
 
 ## *Abstract*  
 asdfasdfasdfasdf

@@ -5,7 +5,7 @@ feature_row1:
   - image_path: Owen_et_al_2020_MER.jpg
     title: "Hemiptera phylogenomic resources: tree-based orthology prediction and conserved exon identification"
     excerpt: "Owen et al. 2020 Molecular Ecology Resources"
-    url: "https://chris-owen.github.io/papers/owen_et_al_2020_mer.md"
+    url: "/Owen_2020_MER/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: Owen_et_al_2020_MER.jpg

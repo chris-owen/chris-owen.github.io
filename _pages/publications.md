@@ -2,38 +2,38 @@
 layout: splash
 permalink: /publications/
 feature_row1:
-  - image_path: Owen_et_al_hemiptera_orthos_MER.png
+  - image_path: Owen_et_al_2020_MER.png
     title: "Hemiptera Orthologs"
     excerpt: "Blurb about research"
     url: "https://chris-owen.github.io/taxonomy/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: Owen_et_al_hemiptera_orthos_MER.png
+  - image_path: Owen_et_al_2020_MER.png
     title: "Cicada phylogeny and phylogenomics"
     excerpt: "Blurb about research"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: Owen_et_al_hemiptera_orthos_MER.png
+  - image_path: Owen_et_al_2020_MER.png
     title: "Arthropod comparative genomics"
     excerpt: "Blurb about research"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row2:
-  - image_path: Owen_et_al_hemiptera_orthos_MER.png
+  - image_path: Owen_et_al_2020_MER.png
     title: "Building the Hemiptera Tree of Life"
     excerpt: "Blurb about research"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: Owen_et_al_hemiptera_orthos_MER.png
+  - image_path: Owen_et_al_2020_MER.png
     title: "Genome evolution in Malacostraca and Peracarida"
     excerpt: "Blurb about research"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: Owen_et_al_hemiptera_orthos_MER.png
+  - image_path: Owen_et_al_2020_MER.png
     title: "Title 6"
     excerpt: "Blurb about research"
     url: "#test-link"

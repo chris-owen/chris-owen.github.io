@@ -1,13 +1,6 @@
 ---
 layout: splash
 permalink: /publications/
-header:
-  image: header_image2.jpg
-  caption: "Photo credit: Dave Marshall & Kathy Hill"
-author_profile: False
-Title: Publications
-intro:
-  - excerpt: 'Currently working on page template'
 feature_row1:
   - image_path: Owen_et_al_hemiptera_orthos_MER.png
     title: "Hemiptera Orthologs"

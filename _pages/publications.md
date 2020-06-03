@@ -4,6 +4,7 @@ permalink: /publications/
 header:
   image: pubs_header_Nigel_Jones.jpg
   caption: "Photo credit: Nigel Jones (Flickr)"
+title: 'Publications'
 feature_row1:
   - image_path: Owen_et_al_2020_MER.jpg
     title: "20. Hemiptera phylogenomic resources: tree-based orthology prediction and conserved exon identification"

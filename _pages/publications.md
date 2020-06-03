@@ -9,7 +9,7 @@ feature_row1:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: Skvarla_et_al_2020_BDJ.jpg
-    title: "19. Reexamination of *Rhopalosiphum* (Hemiptera: Aphididae) using linear discriminant analysis to determine the validity of synonymized species, with some new synonymies and distribution data"
+    title: "19. Reexamination of <i>Rhopalosiphum</i> (Hemiptera: Aphididae) using linear discriminant analysis to determine the validity of synonymized species, with some new synonymies and distribution data"
     excerpt: "Skvarla et al. 2020 Biodiversity Data Journal"
     url: "/Skvarla_2020_BDJ/"
     btn_label: "Read More"

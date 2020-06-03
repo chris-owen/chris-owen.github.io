@@ -18,10 +18,10 @@ feature_row1:
     url: "/Skvarla_2020_BDJ/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: Owen_et_al_2020_MER.jpg
-    title: "Arthropod comparative genomics"
-    excerpt: "Blurb about research"
-    url: "#test-link"
+  - image_path: Rolland_et_al_2020_Plos.jpg
+    title: "Molecular dating and viral load growth rates suggested that the eclipse phase lasted about a week in HIV-1 infected adults in East Africa and Thailand"
+    excerpt: "Rolland et al. 2020 PLoS Pathogens"
+    url: "/Rolland_2020_PLOS/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row2:

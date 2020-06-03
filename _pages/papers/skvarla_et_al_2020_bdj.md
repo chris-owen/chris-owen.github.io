@@ -4,7 +4,7 @@ layout: single
 author_profile: False
 ---
 
-<H1 align="center">Reexamination of *Rhopalosiphum* (Hemiptera: Aphididae) using linear discriminant analysis to determine the validity of synonymized species, with some new synonymies and distribution data</H1>
+<H1 align="center">Reexamination of <i>Rhopalosiphum</i> (Hemiptera: Aphididae) using linear discriminant analysis to determine the validity of synonymized species, with some new synonymies and distribution data</H1>
 <p align="center">Skvarla M., Kramer M., Owen C.L., Miller G.L., 2020. Biodiversity Data Journal 8: e49102. <a href="https://doi.org/10.3897/BDJ.8.e49102">doi:10.3897/BDJ.8.e49102</a></p>
 <p align="center"><a href="https://chris-owen.github.io/_pages/pdfs/Skvarla_et_al_2020_BDJ.pdf" class="btn btn--primary btn--small" >PDF</a> </p>
 

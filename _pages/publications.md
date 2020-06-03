@@ -18,7 +18,7 @@ feature_row1:
     url: "/Skvarla_2020_BDJ/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: Rolland_et_al_2020_Plos.jpg
+  - image_path: Rolland_et_al_2020_Plos.png
     title: "Molecular dating and viral load growth rates suggested that the eclipse phase lasted about a week in HIV-1 infected adults in East Africa and Thailand"
     excerpt: "Rolland et al. 2020 PLoS Pathogens"
     url: "/Rolland_2020_PLOS/"

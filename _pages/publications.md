@@ -3,7 +3,7 @@ layout: splash
 permalink: /publications/
 header:
   image: pubs_header_Nigel_Jones.jpg
-  caption: "Photo credit: Nigel Jones (Flickr)"
+  caption: "Photo credit: [Nigel Jones](https://www.flickr.com/photos/insectman/14836073/in/photolist-2j3fn-6kFoM3-nVXmH-9BWp8Q-6kFpcS-6tNqL3-GTRBP-4MNan4-Hw6tcy-3spTv-qYGvyZ-6kBexa-2j6AfJj-5pZs8a-bqytPP-nGYrN-888Q95-bupCAu-2j6BJLq-2j6xFbJ-TXZGAx-2j6BJHu-57wLod-McUJF-7ccyPN-2j6xFju-2j6BJNQ-2j6AfNT-7ZKBRp-aEmXiW-6oky49-2j6BJMh-2ibRyDC-2iYn5Cm-9RVEqg-Jk16Fk-fo4UBJ-bGXnD4-2jC3H-KkuCEb-nJfT9B-wkWrPM-GAqyoy-27eY98f-9FbCwg-wGhZzm-qRfwcM-9HsnRe-8hnFiE-vacGD7/)"
 title: 'Publications'
 feature_row1:
   - image_path: Owen_et_al_2020_MER.jpg
